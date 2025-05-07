@@ -17,6 +17,7 @@ import java.util.Scanner;
  */
 class Solution{
 	public static void main(String args[]) throws Exception{	
+        //실행 시간 : 0.09303s
 		Scanner sc = new Scanner(System.in);
 		int T;
 		T=sc.nextInt();
