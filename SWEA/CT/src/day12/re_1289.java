@@ -19,7 +19,7 @@ class Solution{
                     pre = target.charAt(i);
                 }
             }
-            System.err.println("#"+test_case+" "+cnt);
+            System.out.println("#"+test_case+" "+cnt);
 		}
 	}
 }

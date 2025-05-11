@@ -17,7 +17,7 @@ class Solution
             List<Integer> list = new ArrayList<>();
             int sum = 0;
 			for(int i=0; i<10; i++){
-            	int num = sc.nextInt(); 
+            	int num = sc.nextInt();   
                 list.add(num);
             }
             Collections.sort(list);
