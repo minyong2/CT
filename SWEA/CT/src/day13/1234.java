@@ -14,6 +14,7 @@ class Solution{
             int cnt = sc.nextInt();
             String num = sc.next();
             boolean change = true;
+            
             for(int i=0; i<num.length(); i++){
                 list.add(num.charAt(i));
             }
