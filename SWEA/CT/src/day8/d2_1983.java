@@ -38,7 +38,7 @@ class Solution{
             List<Double> sorted = new ArrayList<>(score);
             sorted.sort(Collections.reverseOrder()); // 내림차순 정렬
             
-           // Double indexOf 위험성 대비 -> 직접 비교
+           // Double indexOf 위험성 대비 -> 직접 비교 , 부동소수점 비교할때 오차범위 줄 때 많이 씀
             int rank = 0;
             for (int i = 0; i < sorted.size(); i++) {
                 if (Math.abs(sorted.get(i) - target) < 1e-9) {

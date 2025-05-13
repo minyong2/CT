@@ -57,6 +57,7 @@ class Solution{
                 System.out.print(code.get(i)+" ");
             }
             System.out.println();
+
 		}
 	}
 }
